@@ -1,0 +1,15 @@
+{
+  "name": "linkedin_clone",
+  "version": "1.0.0",
+  "description": "LinkedIn clone web application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}

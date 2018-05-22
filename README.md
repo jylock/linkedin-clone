@@ -4,7 +4,7 @@ NPM Dependencies:
 * express: main framework
 * mongoose: connect and interact with MongoDB
 * passport: authentication
-* passport-jwt: json web token
+* passport-jwt: json web token, validate token and extract user information
 * jsonwebtoken: used for generating web token
 * body-parser: take in request
 * bcryptjs
@@ -16,3 +16,4 @@ NPM Dev Dependencies:
 NPM commands used:
 * npm i express mongoose passport passport-jwt jsonwebtoken body-parser bcryptjs validator
 * npm i -D nodemon
+* npm install gravatar

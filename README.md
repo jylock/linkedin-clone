@@ -14,6 +14,6 @@ NPM Dev Dependencies:
 * nodemon: watch node application
 
 NPM commands used:
-* npm i express mongoose passport passport-jwt jsonwebtoken body-parser bcryptjs validator
+* npm i --save express mongoose passport passport-jwt jsonwebtoken body-parser bcryptjs validator
 * npm i -D nodemon
 * npm install gravatar

@@ -46,7 +46,7 @@ const ProfileSchema = new Schema({
         required: true
       },
       location: {
-        type: String,
+        type: String
       },
       from: {
         type: Date,
@@ -110,13 +110,11 @@ const ProfileSchema = new Schema({
     instagram: {
       type: String
     }
-
   },
   date: {
     type: Date,
     default: Date.now
   }
 });
-
 
 module.exports = Profile = mongoose.model('profile', ProfileSchema);
